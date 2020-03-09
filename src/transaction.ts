@@ -100,5 +100,6 @@ export type Transaction = {
     hash: string;
     networkId: string;
     sig: string;
+    signerPublic: string;
     action: Action;
 };
